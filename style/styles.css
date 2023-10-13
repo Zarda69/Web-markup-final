@@ -106,7 +106,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #464646;
     margin-left: 48px;
-    max-width: 560px;
+    max-width: 650px;
     
 
     margin-top: 48px;
@@ -114,15 +114,15 @@
 section
 {
     padding-top: 100px;
-    margin-left: 48px;
-    
+    margin-left: 70px;
+    display: block;    
     
 }
 .sectionImage
 {
-    margin-right: 40px;
-    max-height: 420px;
-    max-width: 500px;
+    margin-right: 70px;
+   
+    max-width: 600px;
     float: right;
 
 
@@ -140,16 +140,21 @@ section
     color: #464646;
     margin-left: 48px;
     
-    width: 560px;
+    width: 650px;
 
     margin-top: 48px;
 }
 h2.header1{
     position: relative;
     top: 0px;
-    left: 270px;
+    left: 30px;
     display: inline;
     
    
 
+}
+main
+{
+    display: flex;
+    flex-direction: column;
 }
