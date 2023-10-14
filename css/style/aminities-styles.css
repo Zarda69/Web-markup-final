@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.paragraph3
+{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #464646;
+    margin-left: 48px;
+    max-width: 390px;
+}
+
+h3.header1{
+    margin-left: 20px;
+    margin-top: 48px;
+    font-size: 40px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.paragraph1
+{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #464646;
+    margin-left: 48px;
+    max-width: 650px;
+    
+
+    margin-top: 48px;
+}
+.maincontainer1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.maincontainer2
+{
+    display: flex;
+
+}
