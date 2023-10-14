@@ -131,3 +131,12 @@ aside .paragraph1
     text-align: center;
     
 }
+.paragraph4
+{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #464646;
+    margin-left: 48px;
+    max-width: 1219px;
+    margin-bottom: 48px;
+}
