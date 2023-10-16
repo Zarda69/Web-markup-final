@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Heino</title>
-    <link rel="stylesheet" type="text/css" href="./css/style/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style/contact-us-styles.css" />
     <link rel="stylesheet" type="text/css" href="/css/layout/layout-contact-us.css" />
 </head>
 <body>
@@ -30,11 +30,48 @@
     </figure>
     <section class="contact-us">
         <main class="contact-ustext">
-            <h4 class="header1">Contact us</h4>
-            <aside class="paragraph1">We can help. Our team of experts is on hands to answer your questions</aside>
+            <p class="contact-ustext"><strong>Contact us</strong></p>
+            <p class="contact-ustext">We can help. Our team of experts is on hands to answer your questions</p>
         </main>
         
     </section>
+    <main class="form-container">
+        <form  action="submit-form.php" method="post">
+            <label>Gender (optional)</label>
+            <label for="male">Male:
+            <input type="radio" id="male" name="gender" value="male">
+
+            </label>
+
+            <label for="female">Female:
+            <input type="radio" id="female" name="gender" value="female">
+
+            </label>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+        
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer class="footer">
+        <img class="footerlogo" src="./images/flavicon tranceparent small.png" alt="footer logo">
+
+        <ul>
+            <a class="footertext" href="#">Contact-us</a>
+            <a class="footertext" href="#">Privacy and policy</a>
+            <a class="footertext" href="#">Terms and conditions</a>
+        </ul>
+        <p>&copy; all rights reserved</p>
+    </footer>
     
 </body>
 </html>

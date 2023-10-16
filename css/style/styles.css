@@ -114,23 +114,7 @@ aside .paragraph1
     margin-left: 48px;
     max-width: 650px;
 }
-.contact-us
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    margin: 0;
-}
-.contact-ustext
-{
-    width: 100%;
-    height: 100px;
-    background-color: #60A53D;
-    color: #fff; 
-    text-align: center;
-    
-}
+
 .paragraph4
 {
     font-size: 24px;
