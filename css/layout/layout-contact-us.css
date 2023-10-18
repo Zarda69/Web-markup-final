@@ -268,9 +268,6 @@ legend
 .accept-cookies:hover {
     background-color: #478F36;
 }
-.accept-cookies:checked
-{
-    .cookies-message{
-        display: none;
-    }
+.accept-cookies-checkbox:checked ~ .cookies-message {
+    display: none;
 }
