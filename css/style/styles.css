@@ -124,3 +124,23 @@ aside .paragraph1
     max-width: 1219px;
     margin-bottom: 48px;
 }
+
+
+/*learn more button style*/
+
+.buttonLearnMore
+{
+    width: 126px;
+    height: 60px;
+    border: 5px solid black;
+    background-color: white;
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-left: 48px;
+    font-size: 18px;
+}
+.buttonLearnMore:hover
+{
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
