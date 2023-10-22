@@ -5,23 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="./css/style/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./css/layout/layout-contact-us.css" />
-    <!-- Add ".css" to the href attribute to specify the CSS file extension -->
+    <link rel="stylesheet" type="text/css" href="./css/layout/housing-layout.css" />
+    
 </head>
 <body>
     <header class="header">
-        <img class="logo" src="./images/Logo1 transparent small.png" alt="Logo">
+        <a href="#">
+            <img class="logo" src="./images/Logo1 transparent small.png" alt="Logo">
+        </a>
+        <input type="checkbox" id="check">
+        <label class="navbar-icon" for="check"><img id="icon"  src="./Icons/icons8-menu-bar-50 black.png" alt="navbar"></label>
+        
         <nav class="navbar">
             <a href="./index.html">Home</a>
-            <a href="./Activities and aminities.html">Acitvities and events</a>
-            <a href="/Housing.html">Housing</a>
-            
+            <a href="./Activities and aminities.html">Acitvities</a>
+            <a href="./Housing.html">Housing</a>
             <a href="./aminities.html">Aminities</a>
             <a href="./History.html">Heino's History</a>
 
-            <a href="./contact-us.html">Contact us</a>
+            <a href="./contact-us.html">Contact-us</a>
         </nav>
     </header>
+    
+
+
+
+    <section class="mobilefigure">
+        <h1 id="mobile" class="captiontext">
+            Discover Heino’s housing diversity
+        </h1>
+    </section>
+
+
+
+
     <figure class="figure">
 
         <img class="background" src="./images/housing small.jpg" alt="Background image">
@@ -31,36 +48,42 @@
         
     </figure>
     <main>
-        <section>
+        <section id="mobilesection" class="section2">
             <img class="sectionImage" src="./images/lan goed oud heino.jpg" alt="oud heino">
-            <h1 class="header1">
-                LandGoed Oud Heino
-            </h1>
-            <p class="paragraph1">
-                Located in the beautiful province of Overijssel, LandGoed Oud Heino is a modern housing estate that combines the best of contemporary living with a serene atmosphere. Surrounded by lush meadows, breathtaking estates, and charming villages, this estate is the perfect place for those looking for a peaceful getaway in the heart of Salland.
-            </p>
+            <article>
+                <h1 class="header1">
+                    LandGoed Oud Heino
+                </h1>
+                <p class="paragraph1">
+                    Located in the beautiful province of Overijssel, LandGoed Oud Heino is a modern housing estate that combines the best of contemporary living with a serene atmosphere. Surrounded by lush meadows, breathtaking estates, and charming villages, this estate is the perfect place for those looking for a peaceful getaway in the heart of Salland.
+                </p>
+            </article>
+            
         </section>
-        <section>
+        <section class="section2">
             <img class="sectionImage" src="./images/more information.jpg" alt="more info">
-            <h1 class="header1">
-                For More Information on Housing in Heino
-            </h1>
-            <p class="paragraph1">
-                To discover a wide range of housing options in Heino, including "LandGoed Oud Heino," explore the following resources:
+            <article>
+                <h1 class="header1">
+                    For More Information on Housing in Heino
+                </h1>
                 <p class="paragraph1">
-                <a href="https://www.pararius.com/apartments/heino">Pararius apartments</a>
-
-                </p>
-                <p class="paragraph1">
-                <a href="https://kamernet.nl/en/for-rent/apartment-heino">Karma apartments for rent</a>
-
-                </p>
-                <p class="paragraph1">
-                <a href="https://expatrentals.eu/country/netherlands/heino">Expatrentals</a>
+                    To discover a wide range of housing options in Heino, including "LandGoed Oud Heino," explore the following resources:
+                    <p class="paragraph1">
+                    <a href="https://www.pararius.com/apartments/heino">Pararius apartments</a>
+    
+                    </p>
+                    <p class="paragraph1">
+                    <a href="https://kamernet.nl/en/for-rent/apartment-heino">Karma apartments for rent</a>
+    
+                    </p>
+                    <p class="paragraph1">
+                    <a href="https://expatrentals.eu/country/netherlands/heino">Expatrentals</a>
+                        
+                    </p>
                     
                 </p>
-                
-            </p>
+            </article>
+            
         </section>
         <p id="cookies-message">This website uses cookies. <a href="/privacy-policy">Learn more</a></p>
 
@@ -68,13 +91,14 @@
     <footer class="footer">
         <img class="footerlogo" src="./images/flavicon tranceparent small.png" alt="footer logo">
 
-        <ul>
+        <ul class="footerlist">
+            
             <a class="footertext" href="#">Contact-us</a>
             <a class="footertext" href="#">Privacy and policy</a>
             <a class="footertext" href="#">Terms and conditions</a>
-            
+            <p>&copy; all rights reserved</p>
         </ul>
-        &copy; all rights reserved
+        
     </footer>
 </body>
 </html>

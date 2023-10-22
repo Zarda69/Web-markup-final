@@ -15,49 +15,36 @@
     
 }
 
-.header
-{
+.header {
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    margin-bottom: 82px;
-    
-    
     
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     
-    
+    z-index: 100;
 }
-.logo
-{
-    top: 4px;
-    left: 30px;
-    padding: 0;
-    position: absolute;
-    width: 172px;
-    
-    z-index: 1;
-}
-.navbar{
-    display: flex;
-    margin-right: 50px;
-}
-.navbar a
-{
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color:black;
-    text-decoration: none;
-    margin-top: 40px;
 
-    margin-left: 50px;
-    
-    
-    font-weight: 600;
+.logo {
+    width: 172px;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 5px;
 }
+
+.navbar a {
+    font-size: 1.15rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 1rem;
+}
+
 .navbar a::before
 {
     content: '';
@@ -73,21 +60,10 @@
 {
     width: 100%;
 }
-.captiontext
-{
-    position: absolute;
-    font-size: 64px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    z-index: 1;
-    color: white;
-    width: 500px;
-    font-weight: bold;
-    
-    top: 40%;
-    left: 100px;
-    justify-content: center;
-    
+#check{
+    display: none;
 }
+
 .footer
 {
     margin-top: 48px;
@@ -95,30 +71,29 @@
     height: 120px;
     width: 100%;
     background-color: #60A53D;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
+    margin-bottom: 30px;
+    
+    
+
 
 }
 .footertext
 {
-    position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    color: black;
+    font-size: 18px; 
     text-decoration: none;
-    margin-top: 40px;
-
-    margin-left: 50px;
-    
+    margin: 0 10px; 
+    padding: 5px; 
+    text-align: center;
+    color: black;
 
 }
 .footerlogo
 {
-    width: 100px;
-    bottom: 0;
-    left: 30px;
-    padding: 0;
-    position: relative;
+    max-width: 10%;
+    
 
     
 }
@@ -270,4 +245,132 @@ legend
 }
 .accept-cookies-checkbox:checked ~ .cookies-message {
     display: none;
+}
+
+.navbar-icon
+  {
+    position: absolute;
+    right: 5px;
+    display: none;
+}
+.mobilefigure
+{
+    display: none;
+}
+.footerlist
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 932px) {
+
+    .navbar-icon{
+        display: inline-flex;
+    }
+    .background
+    {
+        object-fit: cover;
+        object-position: center;
+        display: block;
+
+    }
+    #check:checked~.navbar
+    {
+        height: 17.7rem;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        transition: height 0.3s ease;
+
+
+    }
+    .navbar a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        color: #fff;
+
+    }
+    .logo
+    {
+        width: 124px;
+        padding-left: 5px;
+    }
+    #icon{
+        max-width: 35px;
+    }
+    .captiontext{
+        font-size: 40px;
+    }
+    .figure{
+        display: none;
+    }
+    
+    .sectionImage
+    {
+        max-width: 100%;
+        display: block;
+        padding-bottom: 20px;
+        margin-right: 0;
+        
+    }
+    #floatleft{
+        margin: 0;
+    }
+    .mobiletext h5{
+        font-size: 28px;
+    }
+    .header
+    {
+        border-bottom: black;
+        border-style: double;
+        border-width: 2px;
+    }
+    .mobilefigure
+    {
+        display: block;
+        margin-bottom: 20px;
+        
+    }
+    #mobile {
+        position: relative;
+        color: black;
+        font-size: 2em;
+        width: auto;
+        margin-left: 2em;
+        
+
+    }
+    #mobilesection
+    {
+        padding-top: 20px;
+    }
+
+    form
+    {
+        max-width: 70%;
+    }
+    .footer {
+        flex-direction: column; 
+        align-items: center;
+        margin-top: 20px;
+        justify-content: normal;
+    }
+    .footertext {
+        font-size: 14px;
+        
+    }
+    .footerlogo {
+        max-width: 5rem; 
+       
+    }
+
 }

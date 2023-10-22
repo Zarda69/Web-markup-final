@@ -6,9 +6,22 @@
 {
     width: 660px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 .historyimages
 {
     width: 360px;
     height: 270px;
+}
+@media screen and (max-width: 932px){
+    .bigimage
+    {
+        max-width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .smallimage{
+        width: 50%;
+        height: auto;
+    }
 }
