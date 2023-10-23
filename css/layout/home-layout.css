@@ -259,7 +259,8 @@
     }
     .backgroundmobile
     {
-        display: block;
+        
+        
         background-image: url(./images/homebackground.JPG);
         background-size: cover; 
         max-width: 100%;
@@ -268,7 +269,7 @@
         background-position: center;
         display: flex;
         justify-content: center;
-
+        flex-direction: column;
     }
     .sectionImage
     {
