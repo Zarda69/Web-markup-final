@@ -104,7 +104,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1;
     color: white;
-    
+    text-transform: uppercase;
     font-weight: bold;
     top: 45%;
     left: 100px;
@@ -261,6 +261,7 @@ legend
 {
     display: flex;
     margin-top: 10px;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 932px) {

@@ -75,8 +75,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1;
     color: white;
-    width: 500px;
+    width: 600px;
     font-weight: bold;
+    text-transform: uppercase;
+
     background-color: rgba(0, 0, 0, 0.7);
    
    
@@ -211,6 +213,7 @@
 {
     display: flex;
     margin-top: 10px;
+    list-style-type: none;
 }
 
 @media screen and (max-width: 932px) {

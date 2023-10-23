@@ -5,7 +5,7 @@
 {
     font-size: 40px;
     margin-right: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -148,6 +148,9 @@ aside .paragraph1
 .buttonLearnMore:active
 {
     background-color: #60A53D;
+}
+em {
+    font-weight: 700;
 }
 
 @media screen and (max-width: 932px){
