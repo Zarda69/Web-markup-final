@@ -215,6 +215,7 @@
     top: 60%;
     left: 100px;
     background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 100px
 }
 
 @media screen and (max-width: 932px) {
