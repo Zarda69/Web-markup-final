@@ -43,22 +43,16 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 1rem;
 }
+.navbar a:hover
+{
+    border-bottom: 3px solid #60A53D;
+    
+}
+#currentpage{
+    border-bottom: 3px solid #60A53D;
+}
 
-.navbar a::before
-{
-    content: '';
-    top: 100%;
-    left: 0;
-    position: absolute;
-    width: 0;
-    height: 4px;
-    background: #60A53D;
-    transition: .3s;
-}
-.navbar a:hover::before
-{
-    width: 100%;
-}
+
 #check{
     display: none;
 }
@@ -76,11 +70,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     z-index: 1;
     color: white;
-    width: 630px;
+    width: 600px;
     font-weight: bold;
    
    
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.7);
     
     
     margin-left: 100px;
@@ -233,6 +228,7 @@
     }
     .captiontext{
         font-size: 40px;
+        background-color: rgba(0, 0, 0, 0.0);
     }
     .figure{
         display: none;

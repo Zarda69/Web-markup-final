@@ -43,22 +43,16 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 1rem;
 }
+.navbar a:hover
+{
+    border-bottom: 3px solid #60A53D;
+    
+}
+#currentpage{
+    border-bottom: 3px solid #60A53D;
+}
 
-.navbar a::before
-{
-    content: '';
-    top: 100%;
-    left: 0;
-    position: absolute;
-    width: 0;
-    height: 4px;
-    background: #60A53D;
-    transition: .3s;
-}
-.navbar a:hover::before
-{
-    width: 100%;
-}
+
 #check{
     display: none;
 }
@@ -214,6 +208,13 @@
     display: flex;
     margin-top: 10px;
     list-style-type: none;
+}
+.arrow
+{
+    position: absolute;
+    top: 60%;
+    left: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media screen and (max-width: 932px) {
