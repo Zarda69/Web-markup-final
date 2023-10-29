@@ -270,7 +270,7 @@
     .backgroundmobile
     {
         
-        background-image: url(.../images/History%20background.jpg);
+        background-image: url(./images/History%20background.jpg);
         background-size: cover; 
         max-width: 100%;
         height: 100vh;
